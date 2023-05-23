@@ -60,9 +60,9 @@
                     </view>
                     <connections>
                         <outlet property="changeColorButton" destination="cog-s5-XbR" id="mta-pV-6YX"/>
-                        <outlet property="greenLight" destination="8bC-Xf-vdC" id="H7z-L9-EMG"/>
-                        <outlet property="redLight" destination="8bC-Xf-vdC" id="ROm-wZ-0hP"/>
-                        <outlet property="yellowLight" destination="8bC-Xf-vdC" id="T8c-Ag-m27"/>
+                        <outlet property="greenLight" destination="4mI-O0-NzB" id="G6b-4g-73C"/>
+                        <outlet property="redLight" destination="LO7-f2-8sO" id="Vsh-hY-yiD"/>
+                        <outlet property="yellowLight" destination="DnU-ec-3eV" id="Lcs-pe-zwT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

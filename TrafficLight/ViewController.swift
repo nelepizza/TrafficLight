@@ -18,7 +18,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
-        
+        redLight.layer.cornerRadius = 70
+        changeColorButton.layer.cornerRadius = 10
         
     }
 

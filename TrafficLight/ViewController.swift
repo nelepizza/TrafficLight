@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var yellowLight: UIView!
     @IBOutlet var greenLight: UIView!
    
-    @IBOutlet var ChangeColorButton: UIButton!
+    @IBOutlet var changeColorButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func ChangeColorButtonTap() {
+    @IBAction func changeColorButtonTap() {
     }
     
     

@@ -57,9 +57,9 @@
                     </view>
                     <connections>
                         <outlet property="ChangeColorButton" destination="cog-s5-XbR" id="mta-pV-6YX"/>
-                        <outlet property="GreenLight" destination="8bC-Xf-vdC" id="H7z-L9-EMG"/>
-                        <outlet property="RedLight" destination="8bC-Xf-vdC" id="ROm-wZ-0hP"/>
-                        <outlet property="YellowLight" destination="8bC-Xf-vdC" id="T8c-Ag-m27"/>
+                        <outlet property="greenLight" destination="8bC-Xf-vdC" id="H7z-L9-EMG"/>
+                        <outlet property="redLight" destination="8bC-Xf-vdC" id="ROm-wZ-0hP"/>
+                        <outlet property="yellowLight" destination="8bC-Xf-vdC" id="T8c-Ag-m27"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

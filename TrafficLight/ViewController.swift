@@ -9,9 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var RedLight: UIView!
-    @IBOutlet var YellowLight: UIView!
-    @IBOutlet var GreenLight: UIView!
+    @IBOutlet var redLight: UIView!
+    @IBOutlet var yellowLight: UIView!
+    @IBOutlet var greenLight: UIView!
    
     @IBOutlet var ChangeColorButton: UIButton!
     

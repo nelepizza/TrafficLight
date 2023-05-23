@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var RedLight: UIView!
+    @IBOutlet var YellowLight: UIView!
+    @IBOutlet var GreenLight: UIView!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+      
+        
     }
 
-
+    @IBAction func ChangeColorButton() {
+    }
+    
 }
 

@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var stepCounter = 0
+    
     @IBOutlet var redLight: UIView!
     @IBOutlet var yellowLight: UIView!
     @IBOutlet var greenLight: UIView!
@@ -30,18 +32,25 @@ class ViewController: UIViewController {
         greenLightOff.layer.cornerRadius = 70
         
         changeColorButton.layer.cornerRadius = 10
-        
     }
 
     @IBAction func changeColorButtonTap() {
         changeColorButton.setTitle("NEXT", for: .normal)
         
+       stepCounter += 1
     
-        redLightOff.isHidden.toggle()
-        yellowLightOff.isHidden.toggle()
-        greenLightOff.isHidden.toggle()
+        switch stepCounter {
+        case 1: redLightOff.isHidden.toggle();
+            yellowLightOff.isHidden = false;
+            greenLightOff.isHidden = false
+            
+        case 2: yellowLightOff.isHidden.toggle(); redLightOff.isHidden = false;
+            greenLightOff.isHidden = false
+            
+        default: stepCounter = 0; greenLightOff.isHidden.toggle();
+            redLightOff.isHidden = false;
+            yellowLightOff.isHidden = false
+        }
     }
-    
-    
 }
 

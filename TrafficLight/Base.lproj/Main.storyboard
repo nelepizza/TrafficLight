@@ -21,18 +21,39 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LO7-f2-8sO">
                                         <rect key="frame" x="0.0" y="0.0" width="141" height="140"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QaL-Ma-Jjh">
+                                                <rect key="frame" x="0.0" y="0.0" width="141" height="140"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.28259120036646268" green="0.092132768882152882" blue="0.071337906104484053" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DnU-ec-3eV">
                                         <rect key="frame" x="0.0" y="205" width="141" height="140"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kf0-0Y-Q62">
+                                                <rect key="frame" x="0.0" y="0.0" width="141" height="140"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.31463418547640143" green="0.26301828902155949" blue="0.086378308273321311" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4mI-O0-NzB">
-                                        <rect key="frame" x="0.0" y="410" width="141" height="140"/>
+                                        <rect key="frame" x="0.0" y="410" width="141" height="137"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CoW-D2-reU">
+                                                <rect key="frame" x="0.0" y="0.0" width="141" height="146"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.1372155784875034" green="0.27155933183493075" blue="0.13994365849502291" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cog-s5-XbR">
-                                        <rect key="frame" x="0.0" y="615" width="141" height="34.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="612" width="141" height="37.333333333333371"/>
                                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="START">
@@ -61,8 +82,11 @@
                     <connections>
                         <outlet property="changeColorButton" destination="cog-s5-XbR" id="mta-pV-6YX"/>
                         <outlet property="greenLight" destination="4mI-O0-NzB" id="G6b-4g-73C"/>
+                        <outlet property="greenLightOff" destination="CoW-D2-reU" id="AzX-zo-3jk"/>
                         <outlet property="redLight" destination="LO7-f2-8sO" id="Vsh-hY-yiD"/>
+                        <outlet property="redLightOff" destination="QaL-Ma-Jjh" id="m3d-gL-72O"/>
                         <outlet property="yellowLight" destination="DnU-ec-3eV" id="Lcs-pe-zwT"/>
+                        <outlet property="yellowLightOff" destination="kf0-0Y-Q62" id="mKp-zK-6jX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

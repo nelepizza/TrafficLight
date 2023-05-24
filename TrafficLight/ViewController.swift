@@ -37,19 +37,18 @@ class ViewController: UIViewController {
     @IBAction func changeColorButtonTap() {
         changeColorButton.setTitle("NEXT", for: .normal)
         
+        redLightOff.isHidden = false
+        yellowLightOff.isHidden = false
+        greenLightOff.isHidden = false
+        
        stepCounter += 1
     
         switch stepCounter {
-        case 1: redLightOff.isHidden.toggle();
-            yellowLightOff.isHidden = false;
-            greenLightOff.isHidden = false
+        case 1: redLightOff.isHidden.toggle()
             
-        case 2: yellowLightOff.isHidden.toggle(); redLightOff.isHidden = false;
-            greenLightOff.isHidden = false
+        case 2: yellowLightOff.isHidden.toggle()
             
-        default: stepCounter = 0; greenLightOff.isHidden.toggle();
-            redLightOff.isHidden = false;
-            yellowLightOff.isHidden = false
+        default: stepCounter = 0; greenLightOff.isHidden.toggle()
         }
     }
 }

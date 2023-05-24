@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         yellowLightOff.isHidden = false
         greenLightOff.isHidden = false
         
-       stepCounter += 1
+        stepCounter += 1
     
         switch stepCounter {
         case 1: redLightOff.isHidden.toggle()

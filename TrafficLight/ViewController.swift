@@ -27,6 +27,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func changeColorButtonTap() {
+        
+        changeColorButton.setTitle("NEXT", for: .normal)
     }
     
     

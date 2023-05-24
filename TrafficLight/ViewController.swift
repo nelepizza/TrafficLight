@@ -36,10 +36,10 @@ class ViewController: UIViewController {
     @IBAction func changeColorButtonTap() {
         changeColorButton.setTitle("NEXT", for: .normal)
         
-     //   redLightOff.isHidden = true
+    
         redLightOff.isHidden.toggle()
         yellowLightOff.isHidden.toggle()
-        redLightOff.isHidden.toggle()
+        greenLightOff.isHidden.toggle()
     }
     
     
